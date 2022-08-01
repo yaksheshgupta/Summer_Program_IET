@@ -1,7 +1,9 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.14;
+pragma solidity ^0.8.0;
 import "./main.sol";
 // hangout
+// can add erc721 to give a proof of ownership certificate
+
 contract hangout_music is hangout_content{
     // mapping (address=>uint) internal map_passBook;
     mapping (string => content_info) public music_list;
