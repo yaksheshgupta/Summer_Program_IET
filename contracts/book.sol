@@ -12,6 +12,10 @@ contract hangout_book is hangout_content{
        book.purchase_amount=_purchase_amount *1000000000000000000;
        return true;
     }
+    function del_Content(string memory _name) public checkOwner() override returns(bool){
+        delete book_list[_name];
+        return true;
+    }
     function check_content_avaibility(string memory BN) public view override returns (content_info memory hh){
         require ((book_list[BN]).rent_amount!=0,"Book Not Available");
         return book_list[BN];

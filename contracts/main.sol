@@ -7,6 +7,7 @@ abstract contract hangout_content{
         string link;
         uint rent_amount ;
         uint purchase_amount;
+        uint likes;
     }
     constructor(){
         owner[msg.sender]=1;
@@ -32,5 +33,5 @@ abstract contract hangout_content{
     function check_content_avaibility(string memory BN) public view virtual returns (content_info memory hh);
     function purchase_content(string memory _name) public payable checkEther(0) virtual returns(string memory){}
     function rent_content(string memory _name) public payable checkEther(0) virtual returns(string memory){}
-
+    function del_Content(string memory _name) public virtual checkOwner() returns(bool){}
 }
