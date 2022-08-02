@@ -5,6 +5,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover; 
   margin: -25px 0px;
+  font-style: italic;
 }
 /* Navbar */
 .navname{
@@ -26,6 +27,7 @@ ul li{
 }
 
 .dropbtn {
+  
   background-color: #04aa6d00;
   color: white;
   padding: 16px;
