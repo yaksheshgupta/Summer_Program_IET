@@ -30,7 +30,12 @@ export default function nav(){
             </div>
             </div>
                    
-            <div className="dropdown" style={{marginLeft:100}}>
+            <div className="dropdown" style={{marginLeft:50}}>
+            <form>
+            <input type="text" id="search" placeholder="Search.." />
+            </form>
+            </div>
+            <div className="dropdown" style={{marginLeft:30}}>
             <button className="dropbtn">Connect Wallet</button>
             </div>
             </ul>

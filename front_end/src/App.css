@@ -144,7 +144,7 @@ ul li{
   padding: 10px;
 }
 .grid-item {
-  margin: 50% auto;
+  margin: 35% auto;
   min-width: 50%;
   min-height: 300px;
   border-radius: 25px;
@@ -156,4 +156,12 @@ ul li{
   text-align: center;
   max-height: 300px;
 }
-
+input[type=text] {
+  width: 100%;
+  background-color:rgba(0, 174, 255, 0);
+  padding: 10px 0px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}

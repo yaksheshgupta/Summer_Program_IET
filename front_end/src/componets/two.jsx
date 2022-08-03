@@ -16,7 +16,7 @@ export default function Two(){
             </div>
             <div className="grid-item" >
                 <i className='fas fa-play' style={{fontSize:100}}></i>
-                <div>Mussiiiiccccc</div>
+                <div>Mussiiiiccccc </div>
                 <div className="butt" style={{marginTop:100}}>
                     Play Music
                 </div>
