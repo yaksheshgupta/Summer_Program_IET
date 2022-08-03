@@ -1,10 +1,9 @@
-body {
+body{
   background-image: url('../public/image/total.jpeg') ;
-  min-width: 100vw;
+  min-width: 85vmax;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover; 
-  
 }
 .total{
   margin: -10px -10px -27px;
@@ -17,12 +16,12 @@ body {
   backdrop-filter: blur(50px);
   background-color: rgba(0, 174, 255, 0.411);
   position: fixed;
-  margin: -8px;
+  margin: 0px;
   font-style: bold;
-  padding: 10px;
+  padding: 6px ;
   text-align: left;
   font-size: 25px;
-}
+}   
 
 ul li{
   /* margin-right: 100px; */
@@ -81,7 +80,6 @@ ul li{
 .first{
   background-image: url('../public/image/front.jpeg') ;
   min-height: 101vh;
-  /* min-width: 100vw; */
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover; 
@@ -93,7 +91,6 @@ ul li{
   font-weight:bold;
   text-decoration-line:underline;
   font-family: "Lucida Console";
-
 }
 .butt{
   backdrop-filter: blur(50px);
@@ -119,3 +116,44 @@ ul li{
   backdrop-filter: blur(5px);
   font-family: "Lucida Console";
 }
+/* two */
+.two{
+  margin-top: -28px;
+  background-image: url('../public/image/twophoto.jpeg') ;
+  min-height: 100vh;
+  /* min-width: 100vw; */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  text-align: center;
+}
+/* three */
+.three{
+  background-image: url('../public/image/wp2337027-blockchain-wallpapers.jpeg') ;
+  min-height: 100vh;
+  margin-top: -28px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  text-align: center;
+}
+.grid {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto; 
+  padding: 10px;
+}
+.grid-item {
+  margin: 50% auto;
+  min-width: 50%;
+  min-height: 300px;
+  border-radius: 25px;
+  color: rgba(7, 2, 2, 0.685);
+  background-color: rgba(66, 71, 131, 0.61);
+  /* backdrop-filter: blur(50px); */
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  max-height: 300px;
+}
+

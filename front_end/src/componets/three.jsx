@@ -1,8 +1,8 @@
 import React from "react";
-export default function Check(){
+export default function Three(){
     
     return(
-        <div>
+        <div className="three">
             <h1>hello</h1>
             <h1>hello</h1>
             <h1>hello</h1>
