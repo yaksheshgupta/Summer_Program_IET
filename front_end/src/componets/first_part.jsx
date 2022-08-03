@@ -12,6 +12,12 @@ export default function Front(){
                 <div  className="first_text" style={{fontSize:30}}>
                     This is a enjoyment website where you can listen to music,play music and read books
                 </div>
+                <div  className="first_text" style={{fontSize:30}}>
+                    <p>This website is made using blockchain technology.</p>
+                    <p>Come and Explore this new world with us.</p>
+
+                </div>
+                <button className="butt" >Click to Explore</button>
             
         </div>
     )
